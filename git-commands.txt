@@ -6,8 +6,8 @@ git restore testing.py
 git rm testing.py
 git restore --staged testing.py
 
-git log -- testing.py
-git checkout 39a9c5b7f940ac245d0b5b4142005b284c8635a7 -- testing.py\n
+git log -- testing.py (lists all log files for the testing.py file.)
+git checkout 39a9c5b7f940ac245d0b5b4142005b284c8635a7 -- testing.py
 git commit -m "adding testing.py after deleting it locally and on git hub recovered from the previous commits."
 git commit
 git push
