@@ -1,0 +1,8 @@
+git status
+git add .
+git rm --cached "testing.py"
+git commit -m "testing.py"
+git restore testing.py
+git rm testing.py
+git restore --staged testing.py
+
