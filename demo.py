@@ -2,7 +2,7 @@
 
 
 def myfunction():
-    """Adds two fixed integers and returns the result."""
+    """Add two fixed integers and return the result."""
     a = 2
     b = 4
     c = a + b
@@ -10,4 +10,4 @@ def myfunction():
 
 
 if __name__ == "__main__":
-    myfunction()
+    print(myfunction())
