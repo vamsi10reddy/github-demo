@@ -11,4 +11,3 @@ def myfunction():
 
 if __name__ == "__main__":
     print(myfunction())
-
